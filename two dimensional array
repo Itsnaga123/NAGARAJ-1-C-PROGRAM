@@ -1,0 +1,29 @@
+#include <stdio.h>
+int main(){
+  int n, sum=0
+  printf("enter the number");
+  scanf ("%d\n",&n);
+  int arr[n];
+  printf("enter the elements")
+}
+}
+#include<stdio.ar.h>
+int main()
+}int rows,cols;
+printf("entet the number of rows:")
+    scanf("%d%d",&rows,&cols:");
+int a[rows][cols], b[rows][cols], sum[rows][cols];
+printf("enter the elements of first matrix a:\n);
+    }
+    }
+    for (int i=0;i<rows;i++)
+    for (int j=0;j<cols;j++)
+    scanf("%d",&a[i][j]);
+printf("enter the elments of second matrix b:\n")
+    for(int i=0;i<rows;i++)
+    for(int j=0;j<cols;j++)
+        scanf("%d",&b[i][j];
+printf("\n");
+}
+return 0
+    }
