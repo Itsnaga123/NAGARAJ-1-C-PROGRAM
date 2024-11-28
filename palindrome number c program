@@ -1,0 +1,16 @@
+def is_palindrome_number(s):
+    # Check if the string contains only digits
+    if not s.isdigit():
+        return False
+    
+    # Check if the string is equal to its reverse
+    return s == s[::-1]
+
+# Input string
+number_str = input("Enter a number as a string: ")
+
+# Check if the number is a palindrome
+if is_palindrome_number(number_str):
+    print(f"{number_str} is a palindrome number.")
+else:
+    print(f"{number_str} is not a palindrome number.")
